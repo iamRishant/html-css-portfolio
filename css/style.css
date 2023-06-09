@@ -1,0 +1,148 @@
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+body{
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    /* note ye usko center nahi krega jiska width specify krege example agar h1 ka width 10% krde to to center se wapis left me chala jaega */
+
+    font-family: 'Merriweather', serif;
+    
+
+}
+h1{
+    font-size: 5.625rem;/*font size agar pixel me dedeenge to static ho jaega to make it dynamic we use % to 100%=16px 90px= (90 x 100)/16=562.5*/
+    /* also there is one more way that is em 1em=100%=16px     there fore 90px=562.5%=5.625em*/
+    /* but dekho ek problem hai % and em ke saath agar h1 ke parent(body) me font-size declare krr denge em or % to dono font size add ho jaega to better hai rem use kroo em ki jgh isko doosre se frk nhi pdta */
+    /* width: 10%; */
+    /* agar width use krr denge to text align kaam nhi krega phir margin use krna pdega */
+    margin:0 auto;
+    /* top and bottom 0 margin and left and right auto ye center me krr dega */
+    margin-top: 50px auto 0px auto;
+    color: #66BFBF;
+
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:  2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+.middle-container {
+    margin:100px 0 ; 
+    
+}
+.bottom-container {
+   background-color: #66BFBF;
+   padding: 50px 0 20px;
+}
+.top-cloud{
+    position:absolute;
+    top:20px;
+    right:200px;
+    width: 300px;
+}
+.bottom-cloud{
+    position:absolute;
+    top:280px;
+    left:300px;
+    width: 300px;
+}
+.sizesmall{
+    width: 180px;
+    height: 180px;
+}
+.computer-img{
+    width: 25%;
+    /* image ko text ke left me le jaane ke liye float property use krte hai */
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.chillies-img{
+   width: 25%;
+   float: right;
+   margin-left: 30px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    /* line-height: 2;  yha ke bjae pura paragraph me lgga diye consistent rehne ke liye*/
+    /* line height property gives spaces between words */
+}
+.mountain-image{
+    width: 100rem;
+}
+.intro{
+    /* paragraph ko ek single line ke bjae multiple line me krrdiya gya hai
+    jo container me hai wo us container ka 30% lega ab and iske wjh se left aligned hojaega to usko center krne ke liye  margin use krenge */
+    width: 30%;
+    margin: auto;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted #c7d5d5 6px;
+    border-bottom: none;
+    width: 10%;
+    margin:100px auto;
+}
+.contact-message{
+    width: 30%;
+    margin:40px auto 60px;
+    /* 40 px from top left and right ka auto to make it at center and 60 px at bottom */
+}
+/* generated from css button generator */
+
+.btn {
+    background: #11ccd4;
+    background-image: -webkit-linear-gradient(top, #11ccd4, #119993e);
+    background-image: -moz-linear-gradient(top, #11ccd4, #119993e);
+    background-image: -ms-linear-gradient(top, #11ccd4, #119993e);
+    background-image: -o-linear-gradient(top, #11ccd4, #119993e);
+    background-image: linear-gradient(to bottom, #11ccd4, #119993e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  /* targetting anchor tag  */
+  a{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  a:hover{
+    color:#EAF6f6;
+  }
+  .copyright{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+  }
